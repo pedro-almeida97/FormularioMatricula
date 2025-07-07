@@ -9,6 +9,24 @@
 main {
   overflow: auto;
   padding: 4rem;
+  & .back {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  &h1 {
+    font: 600 1.5rem/1.25 var(--font-family);
+    margin-bottom: 0.5rem;
+  }
+  &h2 {
+    font: 600 2.5/1.25 var(--font-family);
+    margin-bottom: 0.5rem;
+  }
+}
+
+#strong {
+  color: var(--text-highlight);
 }
 
 main .main-container {
@@ -23,4 +41,8 @@ aside {
 
 aside .aside-container {
   max-width: 31rem;
+}
+
+aside .aside-container img {
+  margin-top: 2rem;
 }
